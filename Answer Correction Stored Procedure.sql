@@ -26,3 +26,5 @@ WHERE ExamId = @ExamId;
 declare @ee int
 set @ee =IDENT_CURRENT('Exam')
 execute Answer_Correction @ee,350
+
+
